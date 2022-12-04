@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/AnkitAshokHegde/SimpleWebsite/issues"
   },
-  "homepage": "https://github.com/AnkitAshokHegde/SimpleWebsite#readme"
+  "homepage": "https://github.com/AnkitAshokHegde/SimpleWebsite#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }

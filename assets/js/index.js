@@ -47,6 +47,10 @@ app.get('/', (req, res)=>{
     req.send("GET request is sent\n");
 });
 
+app.post('/', (req, res)=>{
+    res.send("POST request is sent\n");
+});
+
 app.listen(PORT, function(err){
     if(err){
         console.log(err);
